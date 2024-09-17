@@ -8,7 +8,7 @@ showTableOfContents: false
 
 ## Bureau 2024 / 2025  
 - Président : Dziga Czaja  
-- Respos : Marc Portwood, Simane, Jean Rousseau  
+- Respos : Marc Portwood, Simane Khaïri, Jean Rousseau  
   
 ## Bureau 2023 / 2024
 
