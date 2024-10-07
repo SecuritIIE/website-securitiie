@@ -11,6 +11,7 @@ This is why we have a new edition to our introduction to cybersecurity !
 
 The presentation (in french), covers the following subjects :
 
+- A definition
 - Some cyber facts
 - Field of activity
 - Offensive vs Defensive

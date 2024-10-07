@@ -1,8 +1,8 @@
 baseURL = "https://securitiie.github.io"
 title = "SecuritIIE"
 theme = "gokarna"
-languageCode = "fr"
-defaultContentLanguage = "fr"
+languageCode = "en"
+defaultContentLanguage = "en"
 enableEmoji = true
 enableRobotsTXT = true
 #Choose one of emacs, trac or perldoc
@@ -11,7 +11,7 @@ pygmentsStyle = "monokai"
 [params]
   custom_css = ["static/avatar.css"]
   footer = "SecuritIIE"
-  description = "Association de cybersécurité de l'ENSIIE"
+  description = "ENSIIE's Cybersecurity association"
   avatarURL = "/images/securitiie.png"
   AvatarAltText = "avatar"
   avatarSize = "size-m"
@@ -52,9 +52,9 @@ pygmentsStyle = "monokai"
     weight = 1
 
   [[menu.main]]
-    name = "Formations"
+    name = "Courses"
     pre = "<span data-feather='book'></span>"
-    url = "/formations/"
+    url = "/courses/"
     weight = 10
 
   [[menu.main]]
