@@ -1,19 +1,18 @@
-baseURL = "https://securitiie.github.io"
-title = "SecuritIIE"
-theme = "gokarna"
+baseURL = 'https://securitiie.iiens.net'
+title = 'SecuritIIE'
+theme = 'gokarna'
 languageCode = "en"
 defaultContentLanguage = "en"
 enableEmoji = true
 enableRobotsTXT = true
 #Choose one of emacs, trac or perldoc
 pygmentsStyle = "monokai"
-
 [params]
   custom_css = ["static/avatar.css"]
   footer = "SecuritIIE"
   description = "ENSIIE's Cybersecurity association"
   avatarURL = "/images/securitiie.png"
-  AvatarAltText = "avatar"
+  AvatarAltText = "securitiie's logo"
   avatarSize = "size-m"
   customHeadHTML = """
     <!-- KaTeX -->

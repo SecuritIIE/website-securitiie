@@ -2,45 +2,48 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://securitiie.github.io/formations/linux_privilege_escalation/</loc>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2024-10-07T18:15:38+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/courses/</loc>
+    <lastmod>2024-10-07T18:15:38+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/courses/intro-cyber-2024-2025/</loc>
+    <lastmod>2024-10-07T18:15:38+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/courses/linux_privilege_escalation/</loc>
     <lastmod>2024-03-06T16:00:00+05:30</lastmod>
   </url><url>
-    <loc>https://securitiie.github.io/formations/</loc>
-    <lastmod>2024-03-06T16:00:00+05:30</lastmod>
-  </url><url>
-    <loc>https://securitiie.github.io/</loc>
-    <lastmod>2024-03-06T16:00:00+05:30</lastmod>
-  </url><url>
-    <loc>https://securitiie.github.io/formations/file_inclusion/</loc>
+    <loc>http://localhost:1313/courses/file_inclusion/</loc>
     <lastmod>2024-02-14T16:00:00+05:30</lastmod>
   </url><url>
-    <loc>https://securitiie.github.io/formations/opsec/</loc>
+    <loc>http://localhost:1313/courses/opsec/</loc>
     <lastmod>2023-12-06T18:00:00+05:30</lastmod>
   </url><url>
-    <loc>https://securitiie.github.io/formations/crypto/</loc>
+    <loc>http://localhost:1313/courses/crypto/</loc>
     <lastmod>2023-11-22T18:00:00+05:30</lastmod>
   </url><url>
-    <loc>https://securitiie.github.io/formations/phishing/</loc>
+    <loc>http://localhost:1313/courses/phishing/</loc>
     <lastmod>2023-11-14T18:00:00+05:30</lastmod>
   </url><url>
-    <loc>https://securitiie.github.io/formations/intro_forensics/</loc>
+    <loc>http://localhost:1313/courses/intro_forensics/</loc>
     <lastmod>2023-11-08T18:00:00+05:30</lastmod>
   </url><url>
-    <loc>https://securitiie.github.io/formations/pentest_web/</loc>
+    <loc>http://localhost:1313/courses/pentest_web/</loc>
     <lastmod>2023-10-16T18:00:00+05:30</lastmod>
   </url><url>
-    <loc>https://securitiie.github.io/formations/intro_web/</loc>
+    <loc>http://localhost:1313/courses/intro_web/</loc>
     <lastmod>2023-10-10T18:00:00+05:30</lastmod>
   </url><url>
-    <loc>https://securitiie.github.io/formations/intro-cyber/</loc>
+    <loc>http://localhost:1313/courses/intro-cyber/</loc>
     <lastmod>2023-10-03T18:00:00+05:30</lastmod>
   </url><url>
-    <loc>https://securitiie.github.io/bureau/</loc>
+    <loc>http://localhost:1313/bureau/</loc>
   </url><url>
-    <loc>https://securitiie.github.io/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
   </url><url>
-    <loc>https://securitiie.github.io/infos/</loc>
+    <loc>http://localhost:1313/infos/</loc>
   </url><url>
-    <loc>https://securitiie.github.io/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
   </url>
 </urlset>

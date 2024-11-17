@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>SecuritIIE</title>
-    <link>http://localhost:1313/</link>
+    <link>http://localhost:1313/courses/</link>
     <description>Recent content on SecuritIIE</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Mon, 07 Oct 2024 18:15:38 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/courses/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Introduction to cybersecurity 2024 2025</title>
       <link>http://localhost:1313/courses/intro-cyber-2024-2025/</link>
@@ -77,20 +77,6 @@
       <pubDate>Tue, 03 Oct 2023 18:00:00 +0530</pubDate>
       <guid>http://localhost:1313/courses/intro-cyber/</guid>
       <description>La séance d&amp;rsquo;introduction a introduit divers points du monde de la cybersécurité :&#xA;Domaines d&amp;rsquo;activité La sécurité offensive vs défensive Pourquoi s&amp;rsquo;orienter vers la cybersécurité ? Comment commencer ? Les slides sont disponibles ici :&#xA;Accéder aux slides&#xA;Introduction réalisée par Yacine Souam.</description>
-    </item>
-    <item>
-      <title>Bureau</title>
-      <link>http://localhost:1313/bureau/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/bureau/</guid>
-      <description>Bureau 2024 / 2025 Président : Dziga Czaja Respos : Marc Portwood, Simane Khaïri, Paul Cheron, Jean Rousseau Bureau 2023 / 2024 Président - Yacine Souam Respos forma : David Tchilian &amp;amp; Aurélien Mazaheri Respo communication : Adam Haja </description>
-    </item>
-    <item>
-      <title>Qui sommes-nous ?</title>
-      <link>http://localhost:1313/infos/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/infos/</guid>
-      <description>SecuritIIE est l&amp;rsquo;association de cybersécurité de l&amp;rsquo;ENSIIE ayant pour but le partage de connaissances au sein de l&amp;rsquo;école au travers de formations et de compétitions CTF (Capture The Flag).&#xA;Ce site regroupe un ensemble de formations (dispensées par l&amp;rsquo;association), d&amp;rsquo;outils, de guides et de documentation pour la cybersécurité 🦸‍♂️.&#xA;Le but de ce site est principalement l&amp;rsquo;apprentissage des bonnes pratiques et la progression de chacun dans le domaine de la sécurité.</description>
     </item>
   </channel>
 </rss>
