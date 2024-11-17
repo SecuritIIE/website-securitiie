@@ -1,0 +1,15 @@
+<div class="post container">
+
+    <div class="post-header-section">
+        <h1>{{ .Title }}</h1>
+    </div>
+
+    <div class="post-content">
+        {{ .Content }}
+    </div>
+    <!-- Back to top button -->
+    {{ if .Site.Params.ShowBackToTopButton }}
+        {{ partial "back-to-top.html" . }}
+    {{ end }}
+</div>
+
