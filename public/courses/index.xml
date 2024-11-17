@@ -2,80 +2,87 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>SecuritIIE</title>
-    <link>http://localhost:1313/courses/</link>
+    <link>https://securitiie.iiens.net/courses/</link>
     <description>Recent content on SecuritIIE</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 07 Oct 2024 18:15:38 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/courses/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 17 Nov 2024 22:41:53 +0100</lastBuildDate>
+    <atom:link href="https://securitiie.iiens.net/courses/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Web injections</title>
+      <link>https://securitiie.iiens.net/courses/injections_web/</link>
+      <pubDate>Sun, 17 Nov 2024 22:41:53 +0100</pubDate>
+      <guid>https://securitiie.iiens.net/courses/injections_web/</guid>
+      <description>For this is the second course of this academic year, SecuritIIE has decided to do an introduction to web injections. We went more in details, by presenting the example of SQL injections. Finishing with some home-made SQL Injection challenges !&#xA;Go to the slides&#xA;Course made by Dziga CZAJA, based on Yacine Souam&amp;rsquo;s work.</description>
+    </item>
     <item>
       <title>Introduction to cybersecurity 2024 2025</title>
-      <link>http://localhost:1313/courses/intro-cyber-2024-2025/</link>
+      <link>https://securitiie.iiens.net/courses/intro-cyber-2024-2025/</link>
       <pubDate>Mon, 07 Oct 2024 18:15:38 +0200</pubDate>
-      <guid>http://localhost:1313/courses/intro-cyber-2024-2025/</guid>
+      <guid>https://securitiie.iiens.net/courses/intro-cyber-2024-2025/</guid>
       <description>With a new school year, comes new students.&#xA;This is why we have a new edition to our introduction to cybersecurity !&#xA;The presentation (in french), covers the following subjects :&#xA;A definition Some cyber facts Field of activity Offensive vs Defensive Why choose this career ? How to begin in cybersecurity Contribute to SecuritIIE you can fin the slides here :&#xA;Go to the slides&#xA;Introduction made by Dziga CZAJA, based on Yacine Souam&amp;rsquo;s work.</description>
     </item>
     <item>
       <title>Formation Linux Privilege Escalation</title>
-      <link>http://localhost:1313/courses/linux_privilege_escalation/</link>
+      <link>https://securitiie.iiens.net/courses/linux_privilege_escalation/</link>
       <pubDate>Wed, 06 Mar 2024 16:00:00 +0530</pubDate>
-      <guid>http://localhost:1313/courses/linux_privilege_escalation/</guid>
+      <guid>https://securitiie.iiens.net/courses/linux_privilege_escalation/</guid>
       <description>Formation proposée par Fredi sur l&amp;rsquo;élévation de privilèges sur linux.&#xA;Les slides sont disponibles ici :&#xA;Accéder aux slides&#xA;Formation réalisée par David Tchilian.</description>
     </item>
     <item>
       <title>Formation File Inclusion</title>
-      <link>http://localhost:1313/courses/file_inclusion/</link>
+      <link>https://securitiie.iiens.net/courses/file_inclusion/</link>
       <pubDate>Wed, 14 Feb 2024 16:00:00 +0530</pubDate>
-      <guid>http://localhost:1313/courses/file_inclusion/</guid>
+      <guid>https://securitiie.iiens.net/courses/file_inclusion/</guid>
       <description>Formation centrée sur la bien connue technique d’attaque File Inclusion du côté serveur web. Le concept a tout d’abord été introduit en donnant des exemples pratiques, puis les étudiants ont pu attaquer des sites fictifs développés pour l’occasion vulnérables à cette attaque.&#xA;Les slides sont disponibles ici :&#xA;Accéder aux slides&#xA;Formation réalisée par Yacine Souam.</description>
     </item>
     <item>
       <title>Formation Opsec</title>
-      <link>http://localhost:1313/courses/opsec/</link>
+      <link>https://securitiie.iiens.net/courses/opsec/</link>
       <pubDate>Wed, 06 Dec 2023 18:00:00 +0530</pubDate>
-      <guid>http://localhost:1313/courses/opsec/</guid>
+      <guid>https://securitiie.iiens.net/courses/opsec/</guid>
       <description>Lors de cette formation, Fredi a pu présenter la thématique de l&amp;rsquo;opsec via différents scénarios de profils hypothétiques avec des degrés de volonté de préserver son identité et ses communications, afin d&amp;rsquo;aborder en profondeur les outils et techniques pouvant être utilisés.&#xA;Les slides sont disponibles ici :&#xA;Accéder aux slides&#xA;Formation réalisée par David Tchilian.</description>
     </item>
     <item>
       <title>Formation cryptographie</title>
-      <link>http://localhost:1313/courses/crypto/</link>
+      <link>https://securitiie.iiens.net/courses/crypto/</link>
       <pubDate>Wed, 22 Nov 2023 18:00:00 +0530</pubDate>
-      <guid>http://localhost:1313/courses/crypto/</guid>
+      <guid>https://securitiie.iiens.net/courses/crypto/</guid>
       <description>Cette formation introductive a permis de jeter les bases de la cryptographie et de plonger les étudiants dans les chiffrement rsa et aes. Les slides sont disponibles ici :&#xA;Accéder aux slides&#xA;Formation réalisée par Adam HAJA et Aurélien Mazaheri.</description>
     </item>
     <item>
       <title>Formation phishing</title>
-      <link>http://localhost:1313/courses/phishing/</link>
+      <link>https://securitiie.iiens.net/courses/phishing/</link>
       <pubDate>Tue, 14 Nov 2023 18:00:00 +0530</pubDate>
-      <guid>http://localhost:1313/courses/phishing/</guid>
+      <guid>https://securitiie.iiens.net/courses/phishing/</guid>
       <description>Lors de cette formation, le sujet du phishing a été abordé : tout d&amp;rsquo;abord via une présentation expliquant les caractéristiques d&amp;rsquo;un envoi malicieux puis via un challenge pratique d&amp;rsquo;envoi de mail de phishing à une fausse adresse mail en utilisant plusieurs outls.&#xA;Les slides sont disponibles ici :&#xA;Accéder aux slides&#xA;Formation réalisée par David Tchilian.</description>
     </item>
     <item>
       <title>Introduction forensics</title>
-      <link>http://localhost:1313/courses/intro_forensics/</link>
+      <link>https://securitiie.iiens.net/courses/intro_forensics/</link>
       <pubDate>Wed, 08 Nov 2023 18:00:00 +0530</pubDate>
-      <guid>http://localhost:1313/courses/intro_forensics/</guid>
+      <guid>https://securitiie.iiens.net/courses/intro_forensics/</guid>
       <description>Cette formation a permis d&amp;rsquo;introduire le domaine du forensic via plusieurs points centraux. Elle a débouché sur un challenge pratique d&amp;rsquo;analyse forensique conçue par l&amp;rsquo;animateur de la formation.&#xA;Les slides sont disponibles ici :&#xA;Accéder aux slides&#xA;Formation réalisée par Yacine Souam.</description>
     </item>
     <item>
       <title>Présentation du métier de pentester web</title>
-      <link>http://localhost:1313/courses/pentest_web/</link>
+      <link>https://securitiie.iiens.net/courses/pentest_web/</link>
       <pubDate>Mon, 16 Oct 2023 18:00:00 +0530</pubDate>
-      <guid>http://localhost:1313/courses/pentest_web/</guid>
+      <guid>https://securitiie.iiens.net/courses/pentest_web/</guid>
       <description>Cette formation réalisée par Fredi, alternant pentester web, a permis de présenter le métier de pentester web via différents aspects&#xA;Les slides sont disponibles ici :&#xA;Accéder aux slides&#xA;Formation réalisée par David Tchilian.</description>
     </item>
     <item>
       <title>Introduction à la sécurité web</title>
-      <link>http://localhost:1313/courses/intro_web/</link>
+      <link>https://securitiie.iiens.net/courses/intro_web/</link>
       <pubDate>Tue, 10 Oct 2023 18:00:00 +0530</pubDate>
-      <guid>http://localhost:1313/courses/intro_web/</guid>
+      <guid>https://securitiie.iiens.net/courses/intro_web/</guid>
       <description>Cette formation a mis en lumière des concepts clés du web à savoir :&#xA;Le fonctionnement d&amp;rsquo;une requête http et sa réponse Les cookies et leur utilité La manipulation de requête La dichotomie client / serveur Des types de vulnérabilités web classiques Les slides sont disponibles ici :&#xA;Accéder aux slides&#xA;Formation réalisée par Yacine Souam.</description>
     </item>
     <item>
       <title>Introduction à la cybersécurité</title>
-      <link>http://localhost:1313/courses/intro-cyber/</link>
+      <link>https://securitiie.iiens.net/courses/intro-cyber/</link>
       <pubDate>Tue, 03 Oct 2023 18:00:00 +0530</pubDate>
-      <guid>http://localhost:1313/courses/intro-cyber/</guid>
+      <guid>https://securitiie.iiens.net/courses/intro-cyber/</guid>
       <description>La séance d&amp;rsquo;introduction a introduit divers points du monde de la cybersécurité :&#xA;Domaines d&amp;rsquo;activité La sécurité offensive vs défensive Pourquoi s&amp;rsquo;orienter vers la cybersécurité ? Comment commencer ? Les slides sont disponibles ici :&#xA;Accéder aux slides&#xA;Introduction réalisée par Yacine Souam.</description>
     </item>
   </channel>
