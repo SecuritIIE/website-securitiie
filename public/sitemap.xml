@@ -3,10 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://securitiie.iiens.net/</loc>
-    <lastmod>2024-11-17T22:41:53+01:00</lastmod>
+    <lastmod>2024-11-25T20:05:20+01:00</lastmod>
   </url><url>
     <loc>https://securitiie.iiens.net/courses/</loc>
-    <lastmod>2024-11-17T22:41:53+01:00</lastmod>
+    <lastmod>2024-11-25T20:05:20+01:00</lastmod>
+  </url><url>
+    <loc>https://securitiie.iiens.net/courses/intro_reseaux_et_nmap/</loc>
+    <lastmod>2024-11-25T20:05:20+01:00</lastmod>
   </url><url>
     <loc>https://securitiie.iiens.net/courses/injections_web/</loc>
     <lastmod>2024-11-17T22:41:53+01:00</lastmod>

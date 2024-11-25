@@ -10,6 +10,6 @@ Important network concepts were simplified and explained using analogies to make
 Students were introduced to concepts such as the OSI model, IPv4 addresses, ports and more.  
 They finally tried to solve a challenge by using nmap to shh to a vulnerable target, and find the flag!  
 
-[Go to the slides](https://drive.google.com/drive/u/1/folders/1aKYpjD0elagzQie6uYcMcNtJr7gdMavD)
+[Go to the slides](https://drive.google.com/file/d/10-h4wxwoA2nndBW-EAzM_OaoLvTttLOc/view?usp=drive_link)
 
 Course made by Paul.
