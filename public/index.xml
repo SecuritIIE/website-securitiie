@@ -37,11 +37,11 @@
       <description>This course is an introduction to privilege escalation in Linux.&#xA;Go to the slides&#xA;Course made by David Tchilian.</description>
     </item>
     <item>
-      <title>Formation File Inclusion</title>
+      <title>File Inclusion course</title>
       <link>https://securitiie.iiens.net/courses/file_inclusion/</link>
       <pubDate>Wed, 14 Feb 2024 16:00:00 +0530</pubDate>
       <guid>https://securitiie.iiens.net/courses/file_inclusion/</guid>
-      <description>Formation centrée sur la bien connue technique d’attaque File Inclusion du côté serveur web. Le concept a tout d’abord été introduit en donnant des exemples pratiques, puis les étudiants ont pu attaquer des sites fictifs développés pour l’occasion vulnérables à cette attaque.&#xA;Les slides sont disponibles ici :&#xA;Accéder aux slides&#xA;Formation réalisée par Yacine Souam.</description>
+      <description>Course focused on the well know file inclusion attack, on the web server side. The concept was first introduced by giving some practical examples. After that, the students were able to attack fictive vulnerables websites, made for the course.&#xA;Go to the slides&#xA;Course made by par Yacine Souam.</description>
     </item>
     <item>
       <title>Opsec Course</title>
@@ -51,11 +51,11 @@
       <description>During this course, Fredi has presented the opsec thematic, through different profile scenarios, of people wanting to dissimulate their identity and their communications. This was a way to introduce some tools and techniques that can be used.&#xA;Go to the slides&#xA;Course made by David Tchilian.</description>
     </item>
     <item>
-      <title>Formation cryptographie</title>
+      <title>Cryptography course</title>
       <link>https://securitiie.iiens.net/courses/crypto/</link>
       <pubDate>Wed, 22 Nov 2023 18:00:00 +0530</pubDate>
       <guid>https://securitiie.iiens.net/courses/crypto/</guid>
-      <description>Cette formation introductive a permis de jeter les bases de la cryptographie et de plonger les étudiants dans les chiffrement rsa et aes. Les slides sont disponibles ici :&#xA;Accéder aux slides&#xA;Formation réalisée par Adam HAJA et Aurélien Mazaheri.</description>
+      <description>This introductive course allowed to show some basic aspects, and plunge the students into the RSA and AES cyphers.&#xA;Go to the slides&#xA;Course made by Adam HAJA and Aurélien Mazaheri.</description>
     </item>
     <item>
       <title>Phishing course</title>
@@ -69,21 +69,21 @@
       <link>https://securitiie.iiens.net/courses/intro_forensics/</link>
       <pubDate>Wed, 08 Nov 2023 18:00:00 +0530</pubDate>
       <guid>https://securitiie.iiens.net/courses/intro_forensics/</guid>
-      <description>This presentation introduced forensics through different central aspects. It ended with a practical challenge on forensic analysis, made by the presentator.&#xA;Go to the slides&#xA;Formation réalisée par Yacine Souam.</description>
+      <description>This presentation introduced forensics through different central aspects. It ended with a practical challenge on forensic analysis, made by the presentator.&#xA;Go to the slides&#xA;Cours made by Yacine Souam.</description>
     </item>
     <item>
-      <title>Présentation du métier de pentester web</title>
+      <title>Presentation on the web pentester job</title>
       <link>https://securitiie.iiens.net/courses/pentest_web/</link>
       <pubDate>Mon, 16 Oct 2023 18:00:00 +0530</pubDate>
       <guid>https://securitiie.iiens.net/courses/pentest_web/</guid>
-      <description>Cette formation réalisée par Fredi, alternant pentester web, a permis de présenter le métier de pentester web via différents aspects&#xA;Les slides sont disponibles ici :&#xA;Accéder aux slides&#xA;Formation réalisée par David Tchilian.</description>
+      <description>This course was made by Fredi, a wrok-study student in web pentest. It has presented the web pentester job through different aspects.&#xA;Go to the slides&#xA;Course made by David Tchilian.</description>
     </item>
     <item>
-      <title>Introduction à la sécurité web</title>
+      <title>Web security introduction</title>
       <link>https://securitiie.iiens.net/courses/intro_web/</link>
       <pubDate>Tue, 10 Oct 2023 18:00:00 +0530</pubDate>
       <guid>https://securitiie.iiens.net/courses/intro_web/</guid>
-      <description>Cette formation a mis en lumière des concepts clés du web à savoir :&#xA;Le fonctionnement d&amp;rsquo;une requête http et sa réponse Les cookies et leur utilité La manipulation de requête La dichotomie client / serveur Des types de vulnérabilités web classiques Les slides sont disponibles ici :&#xA;Accéder aux slides&#xA;Formation réalisée par Yacine Souam.</description>
+      <description>This course has shown multiple key concepts of the web :&#xA;Functioning of HTTP requests and their responses. The use of Cookies. Request manipulation. The client / server dichotomy. Some classic types of web vulnerabilities. Go to the slides&#xA;Course made by Yacine Souam.</description>
     </item>
     <item>
       <title>Introduction to cybersecurity</title>
