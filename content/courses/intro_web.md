@@ -1,22 +1,19 @@
 ---
-title: "Introduction à la sécurité web"
+title: "Web security introduction"
 date: 2023-10-10T18:00:00+05:30
-#tags: ["Sécurité web"]
 type: "post"
 image: "/images/lorem-ipsum/quick-fox.png"
 showTableOfContents: false
 ---
 
-Cette formation a mis en lumière des concepts clés du web à savoir :
-- Le fonctionnement d'une requête http et sa réponse
-- Les cookies et leur utilité
-- La manipulation de requête
-- La dichotomie client / serveur
-- Des types de vulnérabilités web classiques
+This course has shown multiple key concepts of the web :
+- Functioning of HTTP requests and their responses.
+- The use of Cookies.
+- Request manipulation.
+- The client / server dichotomy.
+- Some classic types of web vulnerabilities.
 
-Les slides sont disponibles ici : 
+[Go to the slides](https://drive.google.rabcom/file/d/1suzTnfPfQL-kLSjLPHc8AJPmyE0jMTEZ/view?usp=sharing)
 
-[Accéder aux slides](https://drive.google.com/file/d/1suzTnfPfQL-kLSjLPHc8AJPmyE0jMTEZ/view?usp=sharing)
-
-Formation réalisée par Yacine Souam.
+Course made by Yacine Souam.
 

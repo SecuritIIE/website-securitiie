@@ -9,7 +9,7 @@
     <lastBuildDate>Mon, 25 Nov 2024 20:05:20 +0100</lastBuildDate>
     <atom:link href="https://securitiie.iiens.net/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Intro reseaux et nmap</title>
+      <title>Networks and nmap introduction</title>
       <link>https://securitiie.iiens.net/courses/intro_reseaux_et_nmap/</link>
       <pubDate>Mon, 25 Nov 2024 20:05:20 +0100</pubDate>
       <guid>https://securitiie.iiens.net/courses/intro_reseaux_et_nmap/</guid>
@@ -30,11 +30,11 @@
       <description>With a new school year, comes new students.&#xA;This is why we have a new edition to our introduction to cybersecurity !&#xA;The presentation (in french), covers the following subjects :&#xA;A definition Some cyber facts Field of activity Offensive vs Defensive Why choose this career ? How to begin in cybersecurity Contribute to SecuritIIE you can fin the slides here :&#xA;Go to the slides&#xA;Introduction made by Dziga CZAJA, based on Yacine Souam&amp;rsquo;s work.</description>
     </item>
     <item>
-      <title>Formation Linux Privilege Escalation</title>
+      <title>Linux Privilege Escalation Course</title>
       <link>https://securitiie.iiens.net/courses/linux_privilege_escalation/</link>
       <pubDate>Wed, 06 Mar 2024 16:00:00 +0530</pubDate>
       <guid>https://securitiie.iiens.net/courses/linux_privilege_escalation/</guid>
-      <description>Formation proposée par Fredi sur l&amp;rsquo;élévation de privilèges sur linux.&#xA;Les slides sont disponibles ici :&#xA;Accéder aux slides&#xA;Formation réalisée par David Tchilian.</description>
+      <description>This course is an introduction to privilege escalation in Linux.&#xA;Go to the slides&#xA;Course made by David Tchilian.</description>
     </item>
     <item>
       <title>Formation File Inclusion</title>
@@ -44,11 +44,11 @@
       <description>Formation centrée sur la bien connue technique d’attaque File Inclusion du côté serveur web. Le concept a tout d’abord été introduit en donnant des exemples pratiques, puis les étudiants ont pu attaquer des sites fictifs développés pour l’occasion vulnérables à cette attaque.&#xA;Les slides sont disponibles ici :&#xA;Accéder aux slides&#xA;Formation réalisée par Yacine Souam.</description>
     </item>
     <item>
-      <title>Formation Opsec</title>
+      <title>Opsec Course</title>
       <link>https://securitiie.iiens.net/courses/opsec/</link>
       <pubDate>Wed, 06 Dec 2023 18:00:00 +0530</pubDate>
       <guid>https://securitiie.iiens.net/courses/opsec/</guid>
-      <description>Lors de cette formation, Fredi a pu présenter la thématique de l&amp;rsquo;opsec via différents scénarios de profils hypothétiques avec des degrés de volonté de préserver son identité et ses communications, afin d&amp;rsquo;aborder en profondeur les outils et techniques pouvant être utilisés.&#xA;Les slides sont disponibles ici :&#xA;Accéder aux slides&#xA;Formation réalisée par David Tchilian.</description>
+      <description>During this course, Fredi has presented the opsec thematic, through different profile scenarios, of people wanting to dissimulate their identity and their communications. This was a way to introduce some tools and techniques that can be used.&#xA;Go to the slides&#xA;Course made by David Tchilian.</description>
     </item>
     <item>
       <title>Formation cryptographie</title>
@@ -58,18 +58,18 @@
       <description>Cette formation introductive a permis de jeter les bases de la cryptographie et de plonger les étudiants dans les chiffrement rsa et aes. Les slides sont disponibles ici :&#xA;Accéder aux slides&#xA;Formation réalisée par Adam HAJA et Aurélien Mazaheri.</description>
     </item>
     <item>
-      <title>Formation phishing</title>
+      <title>Phishing course</title>
       <link>https://securitiie.iiens.net/courses/phishing/</link>
       <pubDate>Tue, 14 Nov 2023 18:00:00 +0530</pubDate>
       <guid>https://securitiie.iiens.net/courses/phishing/</guid>
-      <description>Lors de cette formation, le sujet du phishing a été abordé : tout d&amp;rsquo;abord via une présentation expliquant les caractéristiques d&amp;rsquo;un envoi malicieux puis via un challenge pratique d&amp;rsquo;envoi de mail de phishing à une fausse adresse mail en utilisant plusieurs outls.&#xA;Les slides sont disponibles ici :&#xA;Accéder aux slides&#xA;Formation réalisée par David Tchilian.</description>
+      <description>During this course, the phishing subject was introduced : First, through a presentation explaining the characteristics of a malicious message, then with a practical challenge on mail phishing to a false email, using different tools.&#xA;Go to the slides&#xA;Course made by David Tchilian.</description>
     </item>
     <item>
-      <title>Introduction forensics</title>
+      <title>Forensics introduction</title>
       <link>https://securitiie.iiens.net/courses/intro_forensics/</link>
       <pubDate>Wed, 08 Nov 2023 18:00:00 +0530</pubDate>
       <guid>https://securitiie.iiens.net/courses/intro_forensics/</guid>
-      <description>Cette formation a permis d&amp;rsquo;introduire le domaine du forensic via plusieurs points centraux. Elle a débouché sur un challenge pratique d&amp;rsquo;analyse forensique conçue par l&amp;rsquo;animateur de la formation.&#xA;Les slides sont disponibles ici :&#xA;Accéder aux slides&#xA;Formation réalisée par Yacine Souam.</description>
+      <description>This presentation introduced forensics through different central aspects. It ended with a practical challenge on forensic analysis, made by the presentator.&#xA;Go to the slides&#xA;Formation réalisée par Yacine Souam.</description>
     </item>
     <item>
       <title>Présentation du métier de pentester web</title>
@@ -86,18 +86,18 @@
       <description>Cette formation a mis en lumière des concepts clés du web à savoir :&#xA;Le fonctionnement d&amp;rsquo;une requête http et sa réponse Les cookies et leur utilité La manipulation de requête La dichotomie client / serveur Des types de vulnérabilités web classiques Les slides sont disponibles ici :&#xA;Accéder aux slides&#xA;Formation réalisée par Yacine Souam.</description>
     </item>
     <item>
-      <title>Introduction à la cybersécurité</title>
+      <title>Introduction to cybersecurity</title>
       <link>https://securitiie.iiens.net/courses/intro-cyber/</link>
       <pubDate>Tue, 03 Oct 2023 18:00:00 +0530</pubDate>
       <guid>https://securitiie.iiens.net/courses/intro-cyber/</guid>
-      <description>La séance d&amp;rsquo;introduction a introduit divers points du monde de la cybersécurité :&#xA;Domaines d&amp;rsquo;activité La sécurité offensive vs défensive Pourquoi s&amp;rsquo;orienter vers la cybersécurité ? Comment commencer ? Les slides sont disponibles ici :&#xA;Accéder aux slides&#xA;Introduction réalisée par Yacine Souam.</description>
+      <description>This introduction session has shown diverse aspects of the cybersecurity world :&#xA;The fields of activity. Offensive vs defensive security Why move into cybersecurity ? Where to start ? Go to the slides&#xA;Introduction made by Yacine Souam.</description>
     </item>
     <item>
-      <title>Bureau</title>
+      <title>Board</title>
       <link>https://securitiie.iiens.net/bureau/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://securitiie.iiens.net/bureau/</guid>
-      <description>Bureau 2024 / 2025 Président : Dziga Czaja Respos : Marc Portwood, Simane Khaïri, Paul, Jean Rousseau Bureau 2023 / 2024 Président - Yacine Souam Respos forma : David Tchilian &amp;amp; Aurélien Mazaheri Respo communication : Adam Haja </description>
+      <description>2024 / 2025 President : Dziga Czaja Responsibles : Marc Portwood, Simane Khaïri, Paul, Jean Rousseau 2023 / 2024 President - Yacine Souam Course responsibles : David Tchilian &amp;amp; Aurélien Mazaheri Communication responsible : Adam Haja </description>
     </item>
     <item>
       <title>Qui sommes-nous ?</title>
