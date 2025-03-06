@@ -1,5 +1,5 @@
 ---
-title: "Formation phishing"
+title: "Phishing course"
 date: 2023-11-14T18:00:00+05:30
 #tags: ["Forensics"]
 type: "post"
@@ -7,11 +7,10 @@ image: "/images/lorem-ipsum/quick-fox.png"
 showTableOfContents: false
 ---
 
-Lors de cette formation, le sujet du phishing a été abordé : tout d'abord via une présentation expliquant les caractéristiques d'un envoi malicieux puis via un challenge pratique d'envoi de mail de phishing à une fausse adresse mail en utilisant plusieurs outls.
+During this course, the phishing subject was introduced :
+First, through a presentation explaining the characteristics of a malicious message, then with a practical challenge on mail phishing to a false email, using different tools.
 
-Les slides sont disponibles ici : 
+[Go to the slides](https://drive.google.com/file/d/108MPzCmjap_x37S0hG-esu5L0O4svz06/view?usp=sharing)
 
-[Accéder aux slides](https://drive.google.com/file/d/108MPzCmjap_x37S0hG-esu5L0O4svz06/view?usp=sharing)
-
-Formation réalisée par David Tchilian.
+Course made by David Tchilian.
 

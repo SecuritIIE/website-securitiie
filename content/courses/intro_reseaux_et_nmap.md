@@ -1,5 +1,5 @@
 ---
-title: 'Intro reseaux et nmap'
+title: 'Networks and nmap introduction'
 type: "post"
 date: 2024-11-25T20:05:20+01:00
 showTableOfContents: false

@@ -1,17 +1,17 @@
 ---
-title: "Bureau"
-#tags: ["Bureau", "Equipe"]
+title: "Board"
+#tags: ["Board", "Team"]
 type: "page"
 image: "/images/lorem-ipsum/quick-fox.png"
 showTableOfContents: false
 ---
 
-## Bureau 2024 / 2025  
-- Président : Dziga Czaja  
-- Respos : Marc Portwood, Simane Khaïri, Paul Cheron, Jean Rousseau  
+## 2024 / 2025  
+- President : Dziga Czaja  
+- Responsibles : Marc Portwood, Simane Khaïri, Paul, Jean Rousseau  
   
-## Bureau 2023 / 2024
+## 2023 / 2024
 
-- Président - Yacine Souam
-- Respos forma : David Tchilian & Aurélien Mazaheri
-- Respo communication : Adam Haja
+- President - Yacine Souam
+- Course responsibles : David Tchilian & Aurélien Mazaheri
+- Communication responsible : Adam Haja

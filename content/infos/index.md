@@ -1,7 +1,6 @@
 ---
 title: "Qui sommes-nous ?"
 type: page
-#tags : ["infos"]
 ---
 
 
