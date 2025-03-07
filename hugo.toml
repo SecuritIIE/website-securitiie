@@ -57,9 +57,9 @@ pygmentsStyle = "monokai"
     weight = 10
 
   [[menu.main]]
-    name = "Bureau"
+    name = "Board"
     pre = "<span data-feather='book-open'></span>"
-    url = "/bureau/"
+    url = "/board/"
     weight = 15
 
   [[menu.main]]
