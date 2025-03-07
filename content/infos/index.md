@@ -1,22 +1,13 @@
 ---
-title: "Qui sommes-nous ?"
+title: "About us"
 type: page
 ---
 
-
-<!--- Hello my projects are
-
-1. [Tatooine](/projects/tatooine/)
-2. [Hydra](/projects/hydra/)
-3. [Bludhaven](/projects/bludhaven/)
---->
-
+SecuritIIE is the cybersecurity association of ENSIIE. Our goal is to share knowledge in our school, through courses and CTF competitions (Capture The Flag).
 SecuritIIE est l'association de cybersécurité de l'ENSIIE ayant pour but le partage de connaissances au sein de l'école au travers de formations et de compétitions CTF (Capture The Flag).
 
-Ce site regroupe un ensemble de formations (dispensées par l'association), d'outils, de guides et de documentation pour la cybersécurité 🦸‍♂️.
+This website regroups some of the courses given by the association (in french), tools, guides and documentation about cybersecurity 🦸‍♂️. It's purpose is mainly to learn good habits and to make everyone progress in security.
 
-Le but de ce site est principalement l'apprentissage des bonnes pratiques et la progression de chacun dans le domaine de la sécurité.
+Goodwill is a must, concerning how we treat eachother and how we learn together. This is why we want to remind you that it is your responsibility to use what you learn here and in our association in a good manner, and that you expose yourself to the law if you defy the rules.
 
-La bienveillance est de mise, autant dans nos rapports entre nous que dans nos apprentissages. Nous vous rappelons donc qu'il est de votre responsabilité d'utiliser ce que vous apprendrez ici à bon escient et que vous vous exposez à la loi si jamais vous bravez les interdits.
-
-[CTF de bienvenue](https://jeromino.iiens.net/index.php)
+[Welcome CTF](https://jeromino.iiens.net/index.php)
