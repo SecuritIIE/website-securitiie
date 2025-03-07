@@ -51,9 +51,9 @@ pygmentsStyle = "monokai"
     weight = 1
 
   [[menu.main]]
-    name = "Courses"
+    name = "Trainings"
     pre = "<span data-feather='book'></span>"
-    url = "/courses/"
+    url = "/trainings/"
     weight = 10
 
   [[menu.main]]

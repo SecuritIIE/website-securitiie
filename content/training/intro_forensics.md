@@ -10,5 +10,5 @@ This presentation introduced forensics through different central aspects. It end
 
 [Go to the slides](https://drive.google.com/file/d/1fkfofZowKWtDZp9tvIbbF43fl3u_LtLY/view?usp=sharing)
 
-Cours made by Yacine Souam.
+Training made by Yacine Souam.
 

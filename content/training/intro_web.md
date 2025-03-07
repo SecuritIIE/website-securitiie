@@ -6,7 +6,7 @@ image: "/images/lorem-ipsum/quick-fox.png"
 showTableOfContents: false
 ---
 
-This course has shown multiple key concepts of the web :
+This training has shown multiple key concepts of the web :
 - Functioning of HTTP requests and their responses.
 - The use of Cookies.
 - Request manipulation.
@@ -15,5 +15,5 @@ This course has shown multiple key concepts of the web :
 
 [Go to the slides](https://drive.google.rabcom/file/d/1suzTnfPfQL-kLSjLPHc8AJPmyE0jMTEZ/view?usp=sharing)
 
-Course made by Yacine Souam.
+Training made by Yacine Souam.
 

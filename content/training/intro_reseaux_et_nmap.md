@@ -12,4 +12,4 @@ They finally tried to solve a challenge by using nmap to shh to a vulnerable tar
 
 [Go to the slides](https://drive.google.com/file/d/10-h4wxwoA2nndBW-EAzM_OaoLvTttLOc/view?usp=drive_link)
 
-Course made by Paul.
+Training made by Paul.
