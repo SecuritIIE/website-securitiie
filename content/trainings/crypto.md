@@ -2,7 +2,6 @@
 title: "Cryptography training"
 date: 2023-11-22T18:00:00+05:30
 type: "post"
-image: "/images/lorem-ipsum/quick-fox.png"
 showTableOfContents: false
 ---
 
