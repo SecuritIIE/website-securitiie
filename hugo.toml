@@ -38,7 +38,7 @@ pygmentsStyle = "monokai"
     {name = "linkedin", url = "https://linkedin.com/company/securitiie"},
     {name = "email", url = "mailto:securitiie.pro@gmail.com"}
   ]
-  metaKeywords = ["blog", "gokarna", "hugo"]
+  metaKeywords = ["blog", "gokarna", "hugo", "securitiie", "ENSIIE"]
 
 [params.meta]
   favicon = false
@@ -52,21 +52,29 @@ pygmentsStyle = "monokai"
 
   [[menu.main]]
     name = "Trainings"
-    pre = "<span data-feather='book'></span>"
+    pre = "<span data-feather='book-open'></span>"
     url = "/trainings/"
     weight = 10
 
   [[menu.main]]
-    name = "Board"
-    pre = "<span data-feather='book-open'></span>"
-    url = "/board/"
+    name = "FSIIECTF"
+    pre = "<span data-feather='flag'></span>"
+    url = "/ctf/"
     weight = 15
+
+  [[menu.main]]
+    name = "Board"
+    pre = "<span data-feather='user'></span>"
+    url = "/board/"
+    weight = 20
 
   [[menu.main]]
     name = "Infos"
     pre = "<span data-feather='info'></span>"
     url = "/infos/"
-    weight = 20
+    weight = 25
+
+  
 
 #  [[menu.main]]
 #    name = "Tags"
