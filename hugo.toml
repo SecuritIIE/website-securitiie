@@ -38,7 +38,7 @@ pygmentsStyle = "monokai"
     {name = "linkedin", url = "https://linkedin.com/company/securitiie"},
     {name = "email", url = "mailto:securitiie.pro@gmail.com"}
   ]
-  metaKeywords = ["blog", "gokarna", "hugo", "securitiie", "ENSIIE"]
+  metaKeywords = ["association", "blog", "gokarna", "hugo", "securitiie", "ENSIIE", "SecuritIIE", "SecuritIIE", "SECURITIIE", "Cybersécurité", "Cybersecurity"]
 
 [params.meta]
   favicon = false
