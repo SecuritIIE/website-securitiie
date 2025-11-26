@@ -1,7 +1,7 @@
 ---
 title: 'Introduction Web client'
+date: 2025-11-26T18:00:02+01:00
 type: "post"
-date: 2025-11-26T20:30:02+01:00
 showTableOfContents: false
 draft: false
 ---
@@ -9,7 +9,7 @@ draft: false
 Aujourd'hui, les membres de SecuritIIE ont vu les bases des vulnérabilités web côté client.
 
 Plan : 
-- Qu’est ce que le web client ?
+- Qu’est ce que le web côté client ?
 - Rappel des injections côté client
 - Prise en main de Burpsuite (introduction)
 - Injections XSS
