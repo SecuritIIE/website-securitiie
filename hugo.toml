@@ -1,6 +1,7 @@
 baseURL = 'https://securitiie.iiens.net'
 title = 'SecuritIIE'
 theme = 'gokarna'
+themesDir = '.'
 languageCode = "en"
 defaultContentLanguage = "en"
 enableEmoji = true
