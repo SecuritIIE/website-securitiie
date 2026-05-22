@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<link rel="stylesheet" href="styles.css" />
+<title>Cyber Trihack CTF 2026</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+<div class="container">
+
+    <div class="hero">
+        <div class="overlay">
+            <div class="title-small" id="smallTitle">
+                INTERNATIONAL STUDENT CTF
+            </div>
+
+            <h1>
+                CYBER<br>
+                TRIHACK
+            </h1>
+
+            <div class="subtitle" id="subtitle">
+                24 hours of cybersecurity challenges
+            </div>
+        </div>
+    </div>
+
+    <div class="lang-select">
+        <select id="language">
+            <option value="en">English</option>
+            <option value="fr">Français</option>
+            <option value="ms">Bahasa Melayu</option>
+            <option value="ur">اردو</option>
+        </select>
+    </div>
+
+    <div class="content">
+
+        <div class="description" id="description">
+            Join the international CTF challenge organized by APU, ENSIIE and IQRA.
+        </div>
+
+        <div class="buttons">
+
+            <a class="btn discord" href="https://discord.gg/WRU4Tu4cp5">
+                Discord
+            </a>
+
+            <a class="btn website" href="https://yourwebsite.com">
+                Website
+            </a>
+
+            <a class="btn register" id="registerBtn" href="https://forms.gle/YOURFORM">
+                Register Now
+            </a>
+
+        </div>
+
+    </div>
+
+    <div class="partners">
+        <img src="img/ensiie.svg" alt="ensiie">
+        <img src="img/APU.png" alt="APU">
+        <img src="img/IQRA.webp" alt="IQRA">
+        <img src="img/securitiie.webp" alt="securitiie">
+        <img src="img/FSEC.png" alt="FSEC">
+    </div>
+
+
+    <div class="footer">
+        APU x ENSIIE x IQRA Cyber Trihack Challenge CTF 2026
+    </div>
+
+</div>
+
+<script>
+
+const translations = {
+
+    en:{
+        smallTitle:"INTERNATIONAL STUDENT CTF",
+        subtitle:"24 hours of cybersecurity challenges",
+        description:"Join the international CTF challenge organized by APU, ENSIIE and IQRA.",
+        register:"Register Now"
+    },
+
+    fr:{
+        smallTitle:"CTF ÉTUDIANT INTERNATIONAL",
+        subtitle:"24 heures de défis cybersécurité",
+        description:"Participez au challenge CTF international organisé par APU, ENSIIE et IQRA.",
+        register:"S'inscrire"
+    },
+
+    ms:{
+        smallTitle:"CTF PELAJAR ANTARABANGSA",
+        subtitle:"24 jam cabaran keselamatan siber",
+        description:"Sertai pertandingan CTF antarabangsa anjuran APU, ENSIIE dan IQRA.",
+        register:"Daftar Sekarang"
+    },
+
+    ur:{
+        smallTitle:"بین الاقوامی طلبہ CTF",
+        subtitle:"24 گھنٹے سائبر سیکیورٹی چیلنجز",
+        description:"APU، ENSIIE اور IQRA کے زیر اہتمام بین الاقوامی CTF مقابلے میں شامل ہوں۔",
+        register:"رجسٹر کریں"
+    }
+
+};
+
+const select = document.getElementById("language");
+
+select.addEventListener("change", () => {
+
+    const lang = translations[select.value];
+
+    document.getElementById("smallTitle").innerText = lang.smallTitle;
+    document.getElementById("subtitle").innerText = lang.subtitle;
+    document.getElementById("description").innerText = lang.description;
+    document.getElementById("registerBtn").innerText = lang.register;
+
+});
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,166 @@
+:root{
+    --bg:#120807;
+    --card:#1A0F0D;
+    --brown:#5A3A35;
+    --beige:#D8C7BC;
+    --white:#F2ECE6;
+    --red:#A81E2D;
+    --gold:#D8A623;
+    --cyan:#2E9CAA;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background: radial-gradient(circle at top right,#2a1512 0%, var(--bg) 60%);
+    color:var(--white);
+    font-family:'Inter',sans-serif;
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:40px 20px;
+}
+
+.container{
+    width:100%;
+    max-width:650px;
+    background:rgba(26,15,13,0.95);
+    border:1px solid rgba(216,199,188,0.15);
+    border-radius:28px;
+    overflow:hidden;
+    box-shadow:0 0 40px rgba(0,0,0,0.45);
+}
+
+.hero{
+    position:relative;
+    overflow:hidden;
+    padding:40px 30px;
+    text-align:center;
+    background:
+    linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(0,0,0,0.6)),
+    url('img/mascot.webp') top/cover;
+    
+}
+
+.overlay{
+    backdrop-filter: blur(2px);
+}
+
+.title-small{
+    color:var(--beige);
+    font-size:14px;
+    letter-spacing:3px;
+    margin-bottom:10px;
+}
+
+h1{
+    font-family:'Orbitron',sans-serif;
+    font-size:52px;
+    line-height:1;
+    color:var(--beige);
+    margin-bottom:15px;
+}
+
+.subtitle{
+    color:#b9a8a0;
+    font-size:16px;
+}
+
+.lang-select{
+    padding:25px 30px 0;
+}
+
+select{
+    width:100%;
+    background:var(--bg);
+    color:var(--white);
+    border:1px solid rgba(255,255,255,0.1);
+    padding:14px;
+    border-radius:14px;
+    font-size:16px;
+}
+
+.content{
+    padding:30px;
+}
+
+.description{
+    text-align:center;
+    line-height:1.6;
+    margin-bottom:30px;
+    color:#ddd;
+}
+
+.buttons{
+    display:flex;
+    flex-direction:column;
+    gap:18px;
+}
+
+.btn{
+    text-decoration:none;
+    color:white;
+    padding:18px;
+    border-radius:18px;
+    text-align:center;
+    font-weight:600;
+    transition:0.2s ease;
+    border:1px solid rgba(255,255,255,0.08);
+}
+
+.btn:hover{
+    transform:translateY(-2px);
+}
+
+.discord{
+    background:#1A348F;
+}
+
+.website{
+    background:var(--brown);
+}
+
+.register{
+    background:var(--red);
+}
+
+.footer{
+    padding:25px;
+    text-align:center;
+    font-size:13px;
+    color:#9f918b;
+}
+
+.partners{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-wrap:wrap;
+    gap:20px;
+
+    padding:10px 30px 30px;
+}
+
+.partners img{
+    width:58px;
+    height:58px;
+
+    object-fit:contain;
+
+    opacity:0.9;
+
+    transition:0.2s ease;
+
+    filter:
+        drop-shadow(0 0 6px rgba(0,0,0,0.4));
+}
+
+.partners img:hover{
+    opacity:1;
+    transform:translateY(-2px) scale(1.04);
+}
