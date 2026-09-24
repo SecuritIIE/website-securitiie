@@ -5,86 +5,68 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>SecuritIIE — Le Trésor</title>
 <link rel="stylesheet" href="styles.css" />
-<link rel="preconnect" href="https://fonts.googleapis.com" />
-<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&family=Share+Tech+Mono&family=Inter:wght@400;600&display=swap" rel="stylesheet" />
 <style>
-    .treasure-wrap{
-        position:relative;z-index:1;max-width:640px;margin:0 auto;
-        padding:80px 20px;text-align:center;
-    }
-    .chest{font-size:96px;margin-bottom:10px;animation:float 3s ease-in-out infinite;}
-    @keyframes float{0%,100%{transform:translateY(0);}50%{transform:translateY(-14px);}}
-    .treasure-wrap h1{
-        font-family:'Orbitron',sans-serif;font-weight:900;
-        font-size:clamp(34px,8vw,58px);color:var(--green);
-        text-shadow:0 0 30px rgba(0,255,156,0.5);margin-bottom:18px;
-    }
-    .treasure-wrap .lead{margin-bottom:30px;}
+    .treasure-wrap{max-width:640px;margin:0 auto;padding:80px 24px;text-align:center;}
+    .chest{font-size:64px;margin-bottom:14px;}
+    .treasure-wrap h1{font-size:38px;font-weight:700;margin-bottom:16px;}
+    .treasure-wrap .lead{margin:0 auto 30px;}
     .card-box{
-        background:linear-gradient(180deg,var(--card-hi),var(--card));
-        border:1px solid var(--green);border-radius:20px;
-        padding:34px 28px;margin:0 auto 30px;max-width:520px;text-align:left;
-        box-shadow:0 0 40px rgba(0,255,156,0.15);
+        background:var(--secondary);border:1px solid var(--border);border-radius:8px;
+        padding:32px 28px;margin:0 auto 28px;max-width:520px;text-align:left;
     }
-    .card-box h2{font-family:'Orbitron',sans-serif;font-size:20px;margin-bottom:16px;color:var(--white);}
+    .card-box h2{font-size:22px;margin-bottom:16px;}
     .card-box p{color:var(--muted);margin-bottom:14px;}
     .flag{
-        font-family:'Share Tech Mono',monospace;font-size:20px;
-        color:var(--green);background:#05080d;border:1px dashed var(--green);
-        padding:16px;border-radius:10px;text-align:center;letter-spacing:2px;
+        font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:18px;
+        color:var(--text);background:var(--primary);border:1px solid var(--border);
+        padding:14px;border-radius:6px;text-align:center;letter-spacing:1px;
         user-select:all;margin-top:8px;
     }
-    .cta-row{display:flex;gap:14px;justify-content:center;flex-wrap:wrap;}
+    .recruit{color:var(--muted);font-size:15px;margin-top:8px;}
+    .cta-row{display:flex;gap:14px;justify-content:center;align-items:center;flex-wrap:wrap;}
     .locked-msg{
-        background:var(--card);border:1px solid var(--red);border-radius:18px;
+        background:var(--secondary);border:1px solid var(--border);border-radius:8px;
         padding:40px 28px;max-width:480px;margin:0 auto;text-align:center;
     }
-    .locked-msg h2{font-family:'Orbitron',sans-serif;color:var(--red);margin-bottom:14px;}
+    .locked-msg h2{margin-bottom:14px;}
     .locked-msg p{color:var(--muted);margin-bottom:24px;}
-    .recruit{
-        font-family:'Share Tech Mono',monospace;color:var(--cyan);
-        font-size:14px;margin-top:6px;
-    }
 </style>
 </head>
 <body>
-
-<canvas id="matrix"></canvas>
 
 <!-- Contenu affiché SEULEMENT si les 4 challenges sont résolus -->
 <div class="treasure-wrap" id="won" style="display:none;">
     <div class="chest">🏴‍☠️</div>
     <h1>Trésor déverrouillé</h1>
     <p class="lead">
-        Base64, César, code source, hexadécimal... tu as tout craqué.
-        Tu viens de faire tes premiers pas de hacker éthique. Bienvenue.
+        Base64, César, le code source, une injection SQL... tu as tout craqué.
+        Pas mal pour un début.
     </p>
 
     <div class="card-box">
-        <h2>🎉 Félicitations, hacker !</h2>
+        <h2>Bien joué.</h2>
         <p>
-            Les quatre coffres cachaient chacun une compétence de base en
-            cybersécurité : <b>l'encodage</b>, <b>le chiffrement classique</b>,
-            <b>l'inspection</b> et <b>la conversion de données</b>. C'est le début
-            d'un long voyage.
+            Encodage, vieux chiffrement, reconnaissance et injection : quatre
+            réflexes de base qu'on retrouve partout en cybersécurité. Le reste,
+            c'est juste beaucoup de pratique.
         </p>
-        <p>Voici ton butin — le drapeau de la chasse :</p>
+        <p>Ton butin :</p>
         <div class="flag">SEC{Tu_As_Trouve_Le_Tresor}</div>
         <p class="recruit">
-            » Envie d'aller plus loin ? Rejoins SecuritIIE et le FSIIECTF.
+            Passe récupérer ta récompense au stand SecuritIIE. Montre-leur ça.
         </p>
     </div>
 
     <div class="cta-row">
         <a class="treasure-btn" href="/">Découvrir SecuritIIE</a>
-        <a class="home-link" href="index.html" style="align-self:center;">↺ Rejouer</a>
+        <a href="index.html" id="replay">↺ Rejouer</a>
     </div>
 </div>
 
 <!-- Message si on arrive ici sans avoir résolu les énigmes -->
 <div class="treasure-wrap" id="notyet" style="display:none;">
     <div class="locked-msg">
-        <h2>⛔ Accès verrouillé</h2>
+        <h2>Accès verrouillé</h2>
         <p>
             Ce coffre ne s'ouvre qu'à ceux qui ont résolu les 4 énigmes.
             Pas de raccourci pour un vrai hacker : retourne relever les défis !
@@ -101,35 +83,13 @@
     }
     document.getElementById(done === 4 ? "won" : "notyet").style.display = "block";
 
-    // Matrix rain (identique à la page principale)
-    (function matrix() {
-        const canvas = document.getElementById("matrix");
-        const ctx = canvas.getContext("2d");
-        let cols, drops;
-        const chars = "01アイウエオカキクabcdef0123456789$#@%".split("");
-        const font = 14;
-        function resize() {
-            canvas.width = window.innerWidth;
-            canvas.height = window.innerHeight;
-            cols = Math.floor(canvas.width / font);
-            drops = new Array(cols).fill(1);
-        }
-        resize();
-        window.addEventListener("resize", resize);
-        function draw() {
-            ctx.fillStyle = "rgba(4,6,10,0.08)";
-            ctx.fillRect(0, 0, canvas.width, canvas.height);
-            ctx.fillStyle = "#00ff9c";
-            ctx.font = font + "px monospace";
-            for (let i = 0; i < drops.length; i++) {
-                const text = chars[Math.floor(Math.random() * chars.length)];
-                ctx.fillText(text, i * font, drops[i] * font);
-                if (drops[i] * font > canvas.height && Math.random() > 0.975) drops[i] = 0;
-                drops[i]++;
-            }
-        }
-        setInterval(draw, 55);
-    })();
+    // "Rejouer" : on efface la progression avant de repartir de zéro
+    const replay = document.getElementById("replay");
+    if (replay) {
+        replay.addEventListener("click", function () {
+            for (let i = 1; i <= 4; i++) localStorage.removeItem("chal-" + i);
+        });
+    }
 </script>
 </body>
 </html>

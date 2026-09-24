@@ -12,6 +12,15 @@ function normalize(str) {
         .trim();
 }
 
+// Détecte une injection SQL basique du type ' OR '1'='1, ' OR 1=1--, admin'--
+function looksLikeInjection(raw) {
+    const s = raw.toLowerCase();
+    if (!s.includes("'")) return false;                 // il faut sortir de la chaîne
+    const tautology = /or\s+.+=.+/.test(s);             // un OR toujours vrai
+    const comment = s.includes("--") || s.includes("#");// ou commenter la suite
+    return tautology || comment;
+}
+
 const TOTAL = 4;
 let solved = 0;
 
@@ -56,13 +65,15 @@ function markSolved(section, animate) {
     const form = section.querySelector(".answer");
     const feedback = section.querySelector(".feedback");
     const input = form.querySelector("input");
-    input.value = form.dataset.answer;
+    const button = form.querySelector("button");
+    const sqli = form.classList.contains("sqli");
+
+    if (!sqli && form.dataset.answer) input.value = form.dataset.answer;
     input.disabled = true;
-    form.querySelector("button").disabled = true;
-    form.querySelector("button").textContent = "✓ Ouvert";
+    button.disabled = true;
+    button.textContent = sqli ? "✓ Connecté" : "✓ Ouvert";
     feedback.className = "feedback ok";
-    feedback.innerHTML = "🔓 Coffre ouvert ! <br><span style='color:var(--cyan)'>Indice : "
-        + (form.dataset.clue || "") + "</span>";
+    feedback.textContent = sqli ? "Te voilà admin. Malin." : "Coffre ouvert.";
 
     updateProgress();
     if (animate) unlockNext(section);
@@ -74,16 +85,21 @@ document.querySelectorAll(".answer").forEach((form) => {
         const section = form.closest(".chal");
         const input = form.querySelector("input");
         const feedback = section.querySelector(".feedback");
-        const expected = normalize(form.dataset.answer);
-        const given = normalize(input.value);
+        const value = input.value.trim();
 
-        if (!given) return;
+        if (!value) return;
 
-        if (given === expected) {
+        const ok = form.classList.contains("sqli")
+            ? looksLikeInjection(input.value)
+            : normalize(input.value) === normalize(form.dataset.answer);
+
+        if (ok) {
             markSolved(section, true);
         } else {
             feedback.className = "feedback err";
-            feedback.textContent = "✗ Clé incorrecte. Regarde de plus près...";
+            feedback.textContent = form.classList.contains("sqli")
+                ? "Refusé. Le mot de passe est faux... forcément."
+                : "Non. Réessaie.";
             input.classList.add("shake");
             setTimeout(() => input.classList.remove("shake"), 400);
         }
@@ -92,37 +108,3 @@ document.querySelectorAll(".answer").forEach((form) => {
 
 restore();
 updateProgress();
-
-// ------------------------------------------------------------
-//  Effet "matrix rain" en fond
-// ------------------------------------------------------------
-(function matrix() {
-    const canvas = document.getElementById("matrix");
-    const ctx = canvas.getContext("2d");
-    let cols, drops;
-    const chars = "01アイウエオカキクabcdef0123456789$#@%".split("");
-    const font = 14;
-
-    function resize() {
-        canvas.width = window.innerWidth;
-        canvas.height = window.innerHeight;
-        cols = Math.floor(canvas.width / font);
-        drops = new Array(cols).fill(1);
-    }
-    resize();
-    window.addEventListener("resize", resize);
-
-    function draw() {
-        ctx.fillStyle = "rgba(4,6,10,0.08)";
-        ctx.fillRect(0, 0, canvas.width, canvas.height);
-        ctx.fillStyle = "#00ff9c";
-        ctx.font = font + "px monospace";
-        for (let i = 0; i < drops.length; i++) {
-            const text = chars[Math.floor(Math.random() * chars.length)];
-            ctx.fillText(text, i * font, drops[i] * font);
-            if (drops[i] * font > canvas.height && Math.random() > 0.975) drops[i] = 0;
-            drops[i]++;
-        }
-    }
-    setInterval(draw, 55);
-})();
