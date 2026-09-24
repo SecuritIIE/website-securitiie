@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>SecuritIIE — La Chasse au Trésor</title>
+<link rel="stylesheet" href="styles.css" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&family=Share+Tech+Mono&family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+<!-- ============================================================= -->
+<!--  Bravo, curieux ! Tu regardes déjà le code source.            -->
+<!--  C'est exactement l'état d'esprit d'un hacker.                -->
+<!--                                                               -->
+<!--  >>> Énigme 03 — le mot caché est : boussole <<<             -->
+<!--                                                               -->
+<!--  (Un vrai secret ne devrait jamais traîner dans le code...    -->
+<!--   c'est justement une des premières leçons de la cyber !)     -->
+<!-- ============================================================= -->
+
+<canvas id="matrix"></canvas>
+
+<div class="wrap">
+
+    <header class="head">
+        <div class="kicker">SECURITIIE // CHASSE AU TRÉSOR</div>
+        <h1 class="glitch" data-text="4 ÉNIGMES">4 ÉNIGMES</h1>
+        <p class="lead">
+            Quatre coffres verrouillés se dressent entre toi et le trésor.
+            Chacun cache une clé. Décrypte, inspecte, réfléchis.
+            À toi de jouer, hacker.
+        </p>
+        <div class="progress">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+        <div class="progress-label" id="progressLabel">0 / 4 coffres ouverts</div>
+    </header>
+
+    <main class="challenges">
+
+        <!-- CHALLENGE 1 : Base64 -->
+        <section class="chal" id="chal-1">
+            <div class="chal-head">
+                <span class="num">01</span>
+                <h2>Le message intercepté</h2>
+                <span class="badge">Base64</span>
+            </div>
+            <p class="chal-desc">
+                Nos radios ont capté une transmission ennemie. Elle semble encodée,
+                pas chiffrée... Un format bien connu qui se termine souvent par
+                <code>=</code>. Décode-la pour obtenir la première clé.
+            </p>
+            <pre class="cipher">c2VjcmV0</pre>
+            <div class="hint">
+                <details><summary>Besoin d'un coup de main ?</summary>
+                    <p>C'est de l'encodage <b>Base64</b>. Essaie dans un terminal :
+                    <code>echo c2VjcmV0 | base64 -d</code>, ou un décodeur en ligne.</p>
+                </details>
+            </div>
+            <form class="answer" data-answer="secret" data-clue="La clé du 1er coffre pointe vers ce qui doit rester caché.">
+                <input type="text" placeholder="Entre la clé décodée..." autocomplete="off" spellcheck="false" />
+                <button type="submit">Ouvrir</button>
+            </form>
+            <div class="feedback"></div>
+        </section>
+
+        <!-- CHALLENGE 2 : César / ROT13 -->
+        <section class="chal locked" id="chal-2">
+            <div class="chal-head">
+                <span class="num">02</span>
+                <h2>Le parchemin de César</h2>
+                <span class="badge">Chiffre de César</span>
+            </div>
+            <p class="chal-desc">
+                Un vieux parchemin, chaque lettre décalée de 13 rangs dans l'alphabet.
+                Jules César adorait ça. Ramène chaque lettre à sa place pour lire le mot.
+            </p>
+            <pre class="cipher">cvengr</pre>
+            <div class="hint">
+                <details><summary>Besoin d'un coup de main ?</summary>
+                    <p>C'est un <b>ROT13</b> (César, décalage de 13). A↔N, B↔O...
+                    Décale chaque lettre de 13. Astuce : <code>echo cvengr | tr 'A-Za-z' 'N-ZA-Mn-za-m'</code></p>
+                </details>
+            </div>
+            <form class="answer" data-answer="pirate" data-clue="La clé du 2e coffre : celui qui cherche un trésor.">
+                <input type="text" placeholder="Entre le mot déchiffré..." autocomplete="off" spellcheck="false" />
+                <button type="submit">Ouvrir</button>
+            </form>
+            <div class="feedback"></div>
+        </section>
+
+        <!-- CHALLENGE 3 : Code source -->
+        <section class="chal locked" id="chal-3">
+            <div class="chal-head">
+                <span class="num">03</span>
+                <h2>Le trésor invisible</h2>
+                <span class="badge">Inspection</span>
+            </div>
+            <p class="chal-desc">
+                Certains secrets ne s'affichent pas... mais ils sont là, sous tes yeux.
+                Un vrai hacker regarde toujours ce qui se cache <b>derrière</b> la page.
+                Un indice est dissimulé quelque part dans le code de ce site.
+            </p>
+            <div class="hint">
+                <details><summary>Besoin d'un coup de main ?</summary>
+                    <p>Fais <code>Ctrl+U</code> (afficher le code source) ou clic droit →
+                    « Inspecter ». Cherche un commentaire HTML <code>&lt;!-- ... --&gt;</code>
+                    ou un élément caché. Le mot t'attend tout en haut du code.</p>
+                </details>
+            </div>
+            <form class="answer" data-answer="boussole" data-clue="La clé du 3e coffre : l'instrument qui montre le nord.">
+                <input type="text" placeholder="Entre le mot caché..." autocomplete="off" spellcheck="false" />
+                <button type="submit">Ouvrir</button>
+            </form>
+            <div class="feedback"></div>
+            <!-- Rien à voir ici... enfin presque. Le mot secret est plus haut. -->
+        </section>
+
+        <!-- CHALLENGE 4 : Hexadécimal -->
+        <section class="chal locked" id="chal-4">
+            <div class="chal-head">
+                <span class="num">04</span>
+                <h2>La carte gravée</h2>
+                <span class="badge">Hexadécimal</span>
+            </div>
+            <p class="chal-desc">
+                Le dernier coffre est verrouillé par une suite de nombres en base 16.
+                Chaque paire de caractères représente un octet, donc une lettre.
+                Convertis l'hexadécimal en texte pour obtenir la clé finale.
+            </p>
+            <pre class="cipher">6c 65 67 65 6e 64 65</pre>
+            <div class="hint">
+                <details><summary>Besoin d'un coup de main ?</summary>
+                    <p>Chaque paire hexa = un caractère ASCII. <code>6c</code> = « l », etc.
+                    Essaie : <code>echo 6c6567656e6465 | xxd -r -p</code></p>
+                </details>
+            </div>
+            <form class="answer" data-answer="legende" data-clue="La clé du dernier coffre : ce que devient un grand hacker.">
+                <input type="text" placeholder="Entre la clé finale..." autocomplete="off" spellcheck="false" />
+                <button type="submit">Ouvrir</button>
+            </form>
+            <div class="feedback"></div>
+        </section>
+
+    </main>
+
+    <footer class="foot">
+        <a class="home-link" href="/">← Retour sur SecuritIIE</a>
+        <span>SecuritIIE — Association de cybersécurité de l'ENSIIE</span>
+    </footer>
+
+</div>
+
+<!-- Overlay final quand les 4 coffres sont ouverts -->
+<div class="final-gate" id="finalGate">
+    <div class="final-card">
+        <div class="lock-icon">🗝️</div>
+        <h2>Les 4 coffres sont ouverts !</h2>
+        <p>Le passage secret vers le trésor vient d'apparaître...</p>
+        <a class="treasure-btn" href="tresor.html">Ouvrir le trésor →</a>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
