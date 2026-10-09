@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Portail d'Authentification Sécurisé</title>
+    <style>
+        body { font-family: 'Segoe UI', sans-serif; background-color: #1a1a1a; color: #fff; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; }
+        .login-container { background-color: #2d2d2d; padding: 30px; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.5); width: 350px; text-align: center; border: 1px solid #444; }
+        h2 { color: #00ff66; margin-bottom: 20px; font-weight: 500; }
+        input[type="text"], input[type="password"] { width: 100%; padding: 12px; margin: 10px 0; border: 1px solid #555; background-color: #222; color: #fff; border-radius: 4px; box-sizing: border-box; }
+        button { width: 100%; padding: 12px; background-color: #00ff66; border: none; color: #1a1a1a; font-weight: bold; border-radius: 4px; cursor: pointer; font-size: 16px; transition: 0.3s; }
+        button:hover { background-color: #00cc52; }
+        .message { margin-top: 15px; padding: 10px; border-radius: 4px; font-size: 14px; }
+        .error { background-color: #851414; color: #ff9999; border: 1px solid #ff3333; }
+        .success { background-color: #145214; color: #99ff99; border: 1px solid #33cc33; font-size: 16px; word-wrap: break-word; }
+        .debug { background-color: #333; color: #aaa; text-align: left; font-family: monospace; font-size: 11px; border-left: 3px solid #00ff66; margin-top: 15px;}
+    </style>
+</head>
+<body>
+
+<div class="login-container">
+    <h2>Connexion Admin</h2>
+    <form action="/login" method="POST">
+        <input type="text" name="username" placeholder="Nom d'utilisateur" required>
+        <input type="password" name="password" placeholder="Mot de passe" required>
+        <button type="submit">Se connecter</button>
+    </form>
+
+    {% if error %}
+        <div class="message error"><strong>Erreur :</strong> {{ error }}</div>
+    {% endif %}
+
+    {% if success %}
+        <div class="message success"><strong>🔑 Réussite !</strong><br>{{ success }}</div>
+    {% endif %}
+
+    {% if debug_query %}
+        <div class="message debug">
+            <strong>Requête exécutée :</strong><br>
+            {{ debug_query }}
+        </div>
+    {% endif %}
+</div>
+
+</body>
+</html>
